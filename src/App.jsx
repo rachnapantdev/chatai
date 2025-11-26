@@ -68,9 +68,9 @@ function App() {
       ]
     }
 
-
+  let keySER = "AIzaSyBt5IIImtna8CUo_p60QdHcStz7HE6HPKM"
     // console.log(query);
-    let resp = await fetch(URL + "AIzaSyBt5IIImtna8CUo_p60QdHcStz7HE6HPKM", {
+    let resp = await fetch(URL + keySER, {
       method: "POST",
       body: JSON.stringify(payload)
     })
